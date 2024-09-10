@@ -1,0 +1,158 @@
+/* General Layout */
+body {
+    font-family: 'Fredoka One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #D52D00; /* Dark Orange */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    color: #FF9A56; /* Light Orange */
+}
+
+/* Main Title */
+h1 {
+    background: linear-gradient(90deg, #FF9A56, #D52D00); /* Light to Dark Orange */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 5px solid #A30262; /* Dark Pink */
+}
+
+/* Movie List Styles */
+.movie-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.movie-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.movie-list img {
+    width: 150px;
+    height: 220px;
+    margin-right: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-title {
+    font-size: 1.3rem;
+    color: #A30262; /* Dark Pink */
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FF9A56; /* Light Orange */
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #A30262; /* Dark Pink */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-align: center;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #A30262; /* Dark Pink */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #D162A4; /* Light Pink */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #D162A4; /* Light Pink */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer nav ul li {
+    margin: 10px 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    color: #A30262; /* Dark Pink */
+}
+
